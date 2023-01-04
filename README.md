@@ -21,6 +21,15 @@ A API tem um total de 4 endpoints,  podendo cadastrar seu usuário, realizar log
 <br>
 
 No momento este json server funciona apenas localmente, assim sua url base é: http://localhost:3001
+<h2 align ='center'> Rodando o jsonServer </h2>
+
+```json
+yarn
+```
+```json
+node server.js
+```
+
 
 <h2 align ='center'> Criação de usuário </h2>
 
@@ -32,7 +41,7 @@ No momento este json server funciona apenas localmente, assim sua url base é: h
 	"email": "teste3@gmail.com",
 	"password": "123456ab",
 	"contact": "(xx) xxxxx-xxxx",
-	"avatar": "teste3.png"
+	"avatar": ""
 }
 ```
 
