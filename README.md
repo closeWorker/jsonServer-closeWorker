@@ -1,24 +1,67 @@
-# json-server-base
+<h1 align="center">
+  Close Worker - Json-Server
+</h1>
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
+<p align = "center">
+Este é o json server da aplicação <b>Close Worker</b> -  Uma página de busca de prestadores de serviços autônomos próximos ao usuário, na cidade do Rio de Janeiro – RJ.
+</p>
 
-## Endpoints
+<p align="center">
+  <a href="#endpoints">Endpoints</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+## **Endpoints**
 
-### Cadastro
+A API tem um total de 4 endpoints,  podendo cadastrar seu usuário, realizar login e cadastrar serviços na plataforma. <br/>
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+<a href="https://insomnia.rest/run/?label=closeWorker-JsonServerAPI&uri=https%3A%2F%2Fraw.githubusercontent.com%2FcloseWorker%2FjsonServer-closeWorker%2Fmain%2FconfigInsomia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+<blockquote> Para importar o JSON no Insomnia é só clicar no botão "Run in Insomnia". Depois é só seguir os passos que ele irá importar todos os endpoints em seu insomnia.
+</blockquote>
+<br>
 
+No momento este json server funciona apenas localmente, assim sua url base é: http://localhost:3001
 
-### Login
+<h2 align ='center'> Criação de usuário </h2>
 
-POST /login <br/>
-POST /signin
+`POST /register - FORMATO DA REQUISIÇÃO`
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+```json
+{
+	"name": "teste3",
+	"email": "teste3@gmail.com",
+	"password": "123456ab",
+	"contact": "(xx) xxxxx-xxxx",
+	"avatar": "teste3.png"
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+`POST /register - FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlM0BnbWFpbC5jb20iLCJpYXQiOjE2NzI4NTA1ODQsImV4cCI6MTY3Mjg1NDE4NCwic3ViIjoiNCJ9.fu3HRIq9kgDj4JHr0N4931dXWTpkirImHUGo4LNrESM",
+	"user": {
+		"email": "teste3@gmail.com",
+		"name": "teste3",
+		"contact": "(xx) xxxxx-xxxx",
+		"avatar": "teste3.png",
+		"id": 4
+	}
+}
+```
+<h2 align ='center'> Possíveis erros </h2>
+
+Email já cadastrado:
+
+`POST /register - `
+` FORMATO DA RESPOSTA - STATUS 400`
+
+```json
+"Email already exists"
+```
+<h2 align ='center'> Observaçõess </h2>
+
+Por limitação de conhecimento a respeito das configurações do json server, não será retornado erros, caso a requisição seja enviada faltando algum item obrigatório, assim recomendamos atenção ao criar o objeto json , que será enviado na requisição de registro.
