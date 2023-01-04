@@ -142,7 +142,7 @@ Caso dê tudo certo, a resposta será assim:
 		"userId": 3,
 		"service_provider": "teste2",
 		"service_provider_avatar": "teste2.png",
-		"kink_of_service": "Pedreiro",
+		"kind_of_service": "Pedreiro",
 		"phone_number": "(xx) xxxxx-xxxx",
 		"link_instagram": "https://www.instagram.com/teste2",
 		"id": 1
@@ -151,7 +151,7 @@ Caso dê tudo certo, a resposta será assim:
 		"userId": 2,
 		"service_provider": "teste1",
 		"service_provider_avatar": "teste1.png",
-		"kink_of_service": "Doceira",
+		"kind_of_service": "Doceira",
 		"phone_number": "(xx) xxxxx-xxxx",
 		"link_instagram": "https://www.instagram.com/teste1",
 		"id": 4
@@ -164,12 +164,12 @@ Caso dê tudo certo, a resposta será assim:
 
 Não é preciso enviar body, ou token na requisição
 
-`GET /services?kink_of_service=${tipo_do_serviço} - FORMATO DA REQUISIÇÃO`
+`GET /services?kind_of_service=${tipo_do_serviço} - FORMATO DA REQUISIÇÃO`
 
 
 Caso dê tudo certo, a resposta será assim:
 
-`GET /services?kink_of_service=${tipo_do_serviço} - FORMATO DA RESPOSTA - STATUS 200`
+`GET /services?kind_of_service=${tipo_do_serviço} - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
@@ -177,7 +177,7 @@ Caso dê tudo certo, a resposta será assim:
 		"userId": 3,
 		"service_provider": "teste2",
 		"service_provider_avatar": "teste2.png",
-		"kink_of_service": "Pedreiro",
+		"kind_of_service": "Pedreiro",
 		"phone_number": "(xx) xxxxx-xxxx",
 		"link_instagram": "https://www.instagram.com/teste2",
 		"id": 1
@@ -186,7 +186,7 @@ Caso dê tudo certo, a resposta será assim:
 		"userId": 2,
 		"service_provider": "teste1",
 		"service_provider_avatar": "teste1.png",
-		"kink_of_service": "Doceira",
+		"kind_of_service": "Doceira",
 		"phone_number": "(xx) xxxxx-xxxx",
 		"link_instagram": "https://www.instagram.com/teste1",
 		"id": 4
