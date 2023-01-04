@@ -13,10 +13,10 @@
     },
     {
       "email": "teste1@gmail.com",
-      "password": "$2a$10$h0I5EhMJEH1xubklvQ.L8u1skjLUjOqc0ztjzRZakOmX0yriSThTi",
-      "name": "teste1",
+      "password": "$2a$10$Ir9eXMtbpV4a1GSouLIHkuMX7W9SbNlNpli7z15uURivQOD927w16",
+      "name": "teste111",
       "contact": "(xx) xxxxx-xxxx",
-      "avatar": "teste1.png",
+      "avatar": "teste111.png",
       "id": 2
     },
     {
@@ -26,6 +26,14 @@
       "contact": "(xx) xxxxx-xxxx",
       "avatar": "teste2.png",
       "id": 3
+    },
+    {
+      "email": "teste3@gmail.com",
+      "password": "$2a$10$vmpWFEh3ZHX/GGlDAw0fp.0I2i3ox9DecDWzPQz7zFapsYSjgbsnW",
+      "name": "teste3",
+      "contact": "(xx) xxxxx-xxxx",
+      "avatar": "teste3.png",
+      "id": 4
     }
   ],
   "services": [
@@ -33,7 +41,7 @@
       "userId": 3,
       "service_provider": "teste2",
       "service_provider_avatar": "teste2.png",
-      "kink_of_service": "Pedreiro",
+      "kind_of_service": "Pedreiro",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste2",
       "id": 1
@@ -42,7 +50,7 @@
       "userId": 3,
       "service_provider": "teste2",
       "service_provider_avatar": "teste2.png",
-      "kink_of_service": "Servente de Pedreiro",
+      "kind_of_service": "Servente de Pedreiro",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste2",
       "id": 2
@@ -51,7 +59,7 @@
       "userId": 3,
       "service_provider": "teste2",
       "service_provider_avatar": "teste2.png",
-      "kink_of_service": "Encanador",
+      "kind_of_service": "Encanador",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste2",
       "id": 3
@@ -60,7 +68,7 @@
       "userId": 2,
       "service_provider": "teste1",
       "service_provider_avatar": "teste1.png",
-      "kink_of_service": "Doceira",
+      "kind_of_service": "Doceira",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste1",
       "id": 4
@@ -69,7 +77,7 @@
       "userId": 2,
       "service_provider": "teste1",
       "service_provider_avatar": "teste1.png",
-      "kink_of_service": "Diarista",
+      "kind_of_service": "Diarista",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste1",
       "id": 5
@@ -78,7 +86,7 @@
       "userId": 2,
       "service_provider": "teste1",
       "service_provider_avatar": "teste1.png",
-      "kink_of_service": "Costureira",
+      "kind_of_service": "Costureira",
       "phone_number": "(xx) xxxxx-xxxx",
       "link_instagram": "https://www.instagram.com/teste1",
       "id": 6
