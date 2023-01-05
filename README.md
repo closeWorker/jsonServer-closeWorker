@@ -20,7 +20,7 @@ A API tem um total de 4 endpoints,  podendo cadastrar seu usuário, realizar log
 </blockquote>
 <br>
 
-No momento este json server funciona apenas localmente, assim sua url base é: http://localhost:3001
+No momento este json server funciona apenas localmente, assim sua url base é: https://closework.onrender.com
 <h2 align ='center'> Rodando o jsonServer </h2>
 
 ```json
