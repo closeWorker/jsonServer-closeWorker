@@ -43,7 +43,7 @@
       "service_provider_avatar": "teste2.png",
       "kind_of_service": "Pedreiro",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste2",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 1
     },
     {
@@ -52,7 +52,7 @@
       "service_provider_avatar": "teste2.png",
       "kind_of_service": "Servente de Pedreiro",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste2",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 2
     },
     {
@@ -61,7 +61,7 @@
       "service_provider_avatar": "teste2.png",
       "kind_of_service": "Encanador",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste2",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 3
     },
     {
@@ -70,7 +70,7 @@
       "service_provider_avatar": "teste1.png",
       "kind_of_service": "Doceira",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste1",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 4
     },
     {
@@ -79,7 +79,7 @@
       "service_provider_avatar": "teste1.png",
       "kind_of_service": "Diarista",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste1",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 5
     },
     {
@@ -88,7 +88,7 @@
       "service_provider_avatar": "teste1.png",
       "kind_of_service": "Costureira",
       "phone_number": "(xx) xxxxx-xxxx",
-      "link_instagram": "https://www.instagram.com/teste1",
+      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
       "id": 6
     }
   ],
