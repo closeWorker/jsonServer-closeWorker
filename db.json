@@ -12,206 +12,314 @@
       "id": 1
     },
     {
-      "email": "teste1@gmail.com",
-      "password": "$2a$10$Ir9eXMtbpV4a1GSouLIHkuMX7W9SbNlNpli7z15uURivQOD927w16",
-      "name": "teste111",
-      "contact": "(xx) xxxxx-xxxx",
-      "avatar": "teste111.png",
+      "email": "netoifpe@gmail.com",
+      "password": "$2a$10$2LWyFMX5R0s0rgf7yX0Yw.L85TsVaR1vZiOVR.Vj1ZIURoCt/HaBK",
+      "name": "Antonio Brito Pereira dos Santos Neto",
+      "contact": "(21) 98028-2136",
+      "avatar": "https://i.pinimg.com/originals/b7/91/8d/b7918d252997ee3f14ad974918b8b33d.png",
       "id": 2
     },
     {
-      "email": "teste2@gmail.com",
-      "password": "$2a$10$PiezNH.l0565sydw3dcCzuBzVePuVbAbX5FSEotkSlaBEq626Js6y",
-      "name": "teste2",
-      "contact": "(xx) xxxxx-xxxx",
-      "avatar": "teste2.png",
+      "email": "alexyamiranda7@gmail.com",
+      "password": "$2a$10$UQuCBloerLeK6nn.Q5OYOO5qfRBKzpcXVN4STFxSbCqu1/44z27i6",
+      "name": "Alexandra Miranda",
+      "contact": "(24) 98365-8000",
+      "avatar": "https://th.bing.com/th/id/R.893bf7206e0addd80f75307dde36a424?rik=vuRLBLxhJltUeg&pid=ImgRaw&r=0",
       "id": 3
     },
     {
-      "email": "teste3@gmail.com",
-      "password": "$2a$10$vmpWFEh3ZHX/GGlDAw0fp.0I2i3ox9DecDWzPQz7zFapsYSjgbsnW",
-      "name": "teste3",
-      "contact": "(xx) xxxxx-xxxx",
-      "avatar": "teste3.png",
+      "email": "pedro@hotmail.com",
+      "password": "$2a$10$BqRRpeY0ouAY1IwuNcQq1eOlhjRDFcs9hqSKfvO9EhgXVTXQ/Zx.i",
+      "name": "Pedro Petrarca de Almeida Cavalcante Silveira Nunes ",
+      "contact": "(21) 98384-8941",
+      "avatar": "https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg",
       "id": 4
+    },
+    {
+      "email": "lucasraya@gmail.com",
+      "password": "$2a$10$O4aTRFgbGN6Lm26cfXSwA.iJ/TqaCfO8sgckYmXKgoZVE4gCBEaBW",
+      "name": "Lucas Raya",
+      "contact": "(21) 98107-3068",
+      "avatar": "https://www.horoscopovirtual.com.br/imagem/artigos/interno/images/45180200_s.jpg",
+      "id": 5
     }
   ],
   "services": [
     {
-      "userId": 3,
-      "service_provider": "teste2",
-      "service_provider_avatar": "teste2.png",
-      "kind_of_service": "Pedreiro",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
+      "kind_of_service": "Babá",
+      "description": "Cuido de crianças e adolescentes, de forma carinhosa e gentil. Aceito trabalhos por dia, ou por determinado períodos.",
+      "userId": 2,
+      "service_provider": "Antonio Brito Pereira dos Santos Neto",
+      "service_provider_avatar": "https://i.pinimg.com/originals/b7/91/8d/b7918d252997ee3f14ad974918b8b33d.png",
+      "phone_number": "(21) 98028-2136",
       "id": 1
     },
     {
-      "userId": 3,
-      "service_provider": "teste2",
-      "service_provider_avatar": "teste2.png",
-      "kind_of_service": "Servente de Pedreiro",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
+      "kind_of_service": "Pedreiro",
+      "description": "Construo ou reformo sua casa de forma dinâmica e eficiente.",
+      "userId": 2,
+      "service_provider": "Antonio Brito Pereira dos Santos Neto",
+      "service_provider_avatar": "https://i.pinimg.com/originals/b7/91/8d/b7918d252997ee3f14ad974918b8b33d.png",
+      "phone_number": "(21) 98028-2136",
       "id": 2
     },
     {
-      "userId": 3,
-      "service_provider": "teste2",
-      "service_provider_avatar": "teste2.png",
-      "kind_of_service": "Encanador",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
+      "kind_of_service": "Servente de Pedreiro",
+      "description": "Ajudo na construção de sua obra ou reforma, em todos os horários do dia.",
+      "userId": 2,
+      "service_provider": "Antonio Brito Pereira dos Santos Neto",
+      "service_provider_avatar": "https://i.pinimg.com/originals/b7/91/8d/b7918d252997ee3f14ad974918b8b33d.png",
+      "phone_number": "(21) 98028-2136",
       "id": 3
     },
     {
-      "userId": 2,
-      "service_provider": "teste1",
-      "service_provider_avatar": "teste1.png",
-      "kind_of_service": "Doceira",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "service_provider": "teste1",
-      "service_provider_avatar": "teste1.png",
-      "kind_of_service": "Diarista",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
+      "kind_of_service": "Manicure e Pedicure",
+      "description": "Faço pé e mão, lixo , cutilo e unhas em gel. Sou pontual e atenciosa!",
+      "userId": 3,
+      "service_provider": "Alexandra Miranda",
+      "service_provider_avatar": "https://th.bing.com/th/id/R.893bf7206e0addd80f75307dde36a424?rik=vuRLBLxhJltUeg&pid=ImgRaw&r=0",
+      "phone_number": "(24) 98365-8000",
       "id": 5
     },
     {
-      "userId": 2,
-      "service_provider": "teste1",
-      "service_provider_avatar": "teste1.png",
-      "kind_of_service": "Costureira",
-      "phone_number": "(xx) xxxxx-xxxx",
-      "description": "teste de descrição do serviço, dfanguobag m,gajbguaga m,g augnauognoa",
+      "kind_of_service": "Cozinheira",
+      "description": "Faço comidas caseiras, com gostinho de comida da vovó!",
+      "userId": 3,
+      "service_provider": "Alexandra Miranda",
+      "service_provider_avatar": "https://th.bing.com/th/id/R.893bf7206e0addd80f75307dde36a424?rik=vuRLBLxhJltUeg&pid=ImgRaw&r=0",
+      "phone_number": "(24) 98365-8000",
       "id": 6
+    },
+    {
+      "kind_of_service": "Encanador",
+      "description": "Faço todos tipo de serviço envolvendo encanação!",
+      "userId": 4,
+      "service_provider": "Pedro Petrarca de Almeida Cavalcante Silveira Nunes ",
+      "service_provider_avatar": "https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg",
+      "phone_number": "(21) 98384-8941",
+      "id": 7
+    },
+    {
+      "kind_of_service": "Barbeiro",
+      "description": "Corte seu cabelo, social e degrade.",
+      "userId": 4,
+      "service_provider": "Pedro Petrarca de Almeida Cavalcante Silveira Nunes ",
+      "service_provider_avatar": "https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg",
+      "phone_number": "(21) 98384-8941",
+      "id": 8
+    },
+    {
+      "kind_of_service": "Doceira",
+      "description": "Preparo bolos e doces para todo tipo de eventos. Faço também sobremesas sobre encomenda.",
+      "userId": 5,
+      "service_provider": "Lucas Raya",
+      "service_provider_avatar": "https://www.horoscopovirtual.com.br/imagem/artigos/interno/images/45180200_s.jpg",
+      "phone_number": "(21) 98107-3068",
+      "id": 9
+    },
+    {
+      "kind_of_service": "Costureira",
+      "description": "Realizo pequenos consertos em roupas.",
+      "userId": 5,
+      "service_provider": "Lucas Raya",
+      "service_provider_avatar": "https://www.horoscopovirtual.com.br/imagem/artigos/interno/images/45180200_s.jpg",
+      "phone_number": "(21) 98107-3068",
+      "id": 10
+    },
+    {
+      "kind_of_service": "Outros",
+      "description": "Trabalho com manutenção de computadores: formato, limpo e monto seu PC.",
+      "userId": 5,
+      "service_provider": "Lucas Raya",
+      "service_provider_avatar": "https://www.horoscopovirtual.com.br/imagem/artigos/interno/images/45180200_s.jpg",
+      "phone_number": "(21) 98107-3068",
+      "id": 11
     }
   ],
   "comments": [
     {
-      "userId": 1,
+      "name": "Anitta Fernandes",
+      "comment": "Cuido dos meus filhos de forma exemplar. Super recomendo os serviços dele!",
+      "service_rating": 5,
       "serviceId": 1,
-      "name": "Antonio",
-      "comment": " teste teste teste teste teste",
-      "service_rating": 4,
+      "userId": 1,
       "id": 1
     },
     {
-      "userId": 1,
+      "name": "Glória Maria",
+      "comment": "Excelente trabalho, porém um pouco nojento na hora de limpar as crianças.",
+      "service_rating": 3,
       "serviceId": 1,
-      "name": "Bruna",
-      "comment": " teste1 teste1 teste1 teste1 teste1",
-      "service_rating": 2,
+      "userId": 1,
       "id": 2
     },
     {
+      "name": "João Aparecido",
+      "comment": "Bastante simpático, entretanto as paredes do meu muro, que foi reformado, ficaram tortas.",
+      "service_rating": 2,
+      "serviceId": 2,
       "userId": 1,
-      "serviceId": 1,
-      "name": "Jean",
-      "comment": " teste2 teste2 teste2 teste2 teste2",
-      "service_rating": 3,
       "id": 3
     },
     {
-      "userId": 1,
+      "name": "Carlos Eduardo",
+      "comment": "Infelizmente não tem preparo para trabalhar como pedreiro, sem supervisão do um superior.",
+      "service_rating": 1,
       "serviceId": 2,
-      "name": "Maikol",
-      "comment": " teste3 teste3 teste3 teste3 teste3",
-      "service_rating": 2,
+      "userId": 1,
       "id": 4
     },
     {
+      "name": "Maria Izabel",
+      "comment": "Muito trabalhador e esforçado.",
+      "service_rating": 4,
+      "serviceId": 3,
       "userId": 1,
-      "serviceId": 2,
-      "name": "Max",
-      "comment": " teste3 teste3 teste3 teste3 teste3",
-      "service_rating": 3,
       "id": 5
     },
     {
+      "name": "Joaquim Nabuco",
+      "comment": "Muito trabalhador e pontual, gostei muito dos serviços dele, super recomendo!",
+      "service_rating": 5,
+      "serviceId": 3,
       "userId": 1,
-      "serviceId": 2,
-      "name": "Maxiliano",
-      "comment": " teste4 teste4 teste4 teste4 teste4",
-      "service_rating": 4,
       "id": 6
     },
     {
+      "name": "Natália Junqueira",
+      "comment": "Trabalho excelente, muito simpática e carinhosa, super recomendo!",
+      "service_rating": 5,
+      "serviceId": 5,
       "userId": 1,
-      "serviceId": 2,
-      "name": "Maxiliano Luiz",
-      "comment": " teste5 teste5 teste5 teste5 teste5",
-      "service_rating": 4,
       "id": 7
     },
     {
+      "name": "Michelle Lima",
+      "comment": "Muito boa profissional, só precisa ser mais pontual.",
+      "service_rating": 4,
+      "serviceId": 5,
       "userId": 1,
-      "serviceId": 3,
-      "name": "Marcos",
-      "comment": " teste4 teste4 teste4 teste4 teste4",
-      "service_rating": 3,
       "id": 8
     },
     {
-      "userId": 1,
-      "serviceId": 3,
-      "name": "Julia",
-      "comment": " teste5 teste5 teste5 teste5 teste5",
+      "name": "Rafaela",
+      "comment": "Gostei muito!",
       "service_rating": 4,
+      "serviceId": 5,
+      "userId": 1,
       "id": 9
     },
     {
+      "name": "Maria Cristina",
+      "comment": "Excelente, lembrei dos tempos que frequentava a casa da minha vó no interior!",
+      "service_rating": 5,
+      "serviceId": 6,
       "userId": 1,
-      "serviceId": 4,
-      "name": "Heliana",
-      "comment": " teste4 teste4 teste4 teste4 teste4",
-      "service_rating": 3,
       "id": 10
     },
     {
+      "name": "Juliana",
+      "comment": "Excelente tempero!",
+      "service_rating": 4,
+      "serviceId": 6,
       "userId": 1,
-      "serviceId": 4,
-      "name": "Maria Joaquina",
-      "comment": " teste5 teste5 teste5 teste5 teste5",
-      "service_rating": 2,
       "id": 11
     },
     {
-      "userId": 1,
-      "serviceId": 5,
-      "name": "Heliana",
-      "comment": " teste4 teste4 teste4 teste4 teste4",
+      "name": "João do Cunha",
+      "comment": "Me salvou do prejuízo de quebrar todo o chão da minha casa!",
       "service_rating": 5,
+      "serviceId": 7,
+      "userId": 1,
       "id": 12
     },
     {
-      "userId": 1,
-      "serviceId": 5,
-      "name": "Maria Izabel",
-      "comment": " teste5 teste5 teste5 teste5 teste5",
-      "service_rating": 5,
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "serviceId": 6,
-      "name": "Rafael",
-      "comment": " teste4 teste4 teste4 teste4 teste4",
+      "name": "Josivaldo Macedo",
+      "comment": "Muito bom profissional, entretanto, porém chegou atrasado!",
       "service_rating": 3,
+      "serviceId": 7,
+      "userId": 1,
       "id": 13
     },
     {
+      "name": "Marcos",
+      "comment": "Resolveu o problema no dia, e no outro voltou tudo novamente, não recomendo",
+      "service_rating": 1,
+      "serviceId": 7,
       "userId": 1,
-      "serviceId": 6,
-      "name": "Augusto",
-      "comment": " teste5 teste5 teste5 teste5 teste5",
-      "service_rating": 5,
       "id": 14
+    },
+    {
+      "name": "Carlinhos",
+      "comment": "Deixou meu cabelo igual o do Brad Pit, só que depois que ele passou a máquina zero. todo meu cabelo caiu. Não recomendo ele.",
+      "service_rating": 1,
+      "serviceId": 8,
+      "userId": 1,
+      "id": 15
+    },
+    {
+      "name": "Joaquin ",
+      "comment": "Não sabe cortar cabelo, muda de profissão",
+      "service_rating": 1,
+      "serviceId": 8,
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "name": "Josias",
+      "comment": "Foi fazer o nevou no meu cabelo, e me deixou careca, não recomendo!",
+      "service_rating": 1,
+      "serviceId": 8,
+      "userId": 1,
+      "id": 17
+    },
+    {
+      "name": "Rafa Liz",
+      "comment": "Bolo excelente, recheio incrível, amei, super recomendo! ",
+      "service_rating": 5,
+      "serviceId": 9,
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "name": "Matheus Fernadez",
+      "comment": "Contratei para fazer o bolo do meu casamento e amei!!!!",
+      "service_rating": 5,
+      "serviceId": 9,
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "name": "Priscila Senna",
+      "comment": "Acabou com minha calça nova que só precisava de uma pinça, não contratem ele.",
+      "service_rating": 1,
+      "serviceId": 10,
+      "userId": 1,
+      "id": 20
+    },
+    {
+      "name": "Raphaela Santos",
+      "comment": "Deixou meu vestido mais curto do que deveria, não consigo mais usar ele. ",
+      "service_rating": 1,
+      "serviceId": 10,
+      "userId": 1,
+      "id": 21
+    },
+    {
+      "name": "Antonio Neto",
+      "comment": "Me fez perder todos os meus arquivos",
+      "service_rating": 2,
+      "serviceId": 11,
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "name": "Lima",
+      "comment": "Limpou meu computador com perfeição.",
+      "service_rating": 4,
+      "serviceId": 11,
+      "userId": 1,
+      "id": 23
     }
   ]
 }
